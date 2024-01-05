@@ -1,0 +1,8 @@
+.introducao {
+  width: 100%;
+  height: 707px;  
+  background-image: url(../media/img/marvel2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
