@@ -1,0 +1,22 @@
+.header {
+  padding: 20px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.menu a{
+ padding: 10px;
+ background: var(--cor-12);
+ border: 1px solid var(--cor-p1);
+ text-transform: uppercase;
+ text-decoration: none;
+ cursor: pointer;
+}
+@media (max-width: 450px) {
+  .menu {
+    justify-content: center;
+  }
+}
