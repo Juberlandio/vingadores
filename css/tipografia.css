@@ -19,4 +19,13 @@
   font: 700 6.25rem/0.83 "Montserrat", sans-serif;
   letter-spacing: 1.5px; 
 }  
-
+@media (max-width: 760px) {
+  .font-xxl {
+    font-size: 4rem;
+  }  
+}
+@media (max-width: 460px) {
+  .font-xxl {
+    font-size: 2rem;
+  }  
+}

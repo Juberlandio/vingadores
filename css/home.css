@@ -86,23 +86,44 @@
   margin-top: 75px;
 }
 .main .border {
+  display: block;
   width: 238px;
   height: 2px;
   background: var(--cor-p1);
   border-radius: 5px;
   margin: 0 auto;
-  display: block;
 }
-
+@media (max-width: 760px) {
+  .main .titulo-secundario {
+    margin-top: 125px;
+  }
+}
+@media (max-width: 450px) {
+.main .titulo-principal {
+  margin-top: 40px;
+}
+.main .quadrado {
+  width: 244px;
+  height: 62px;
+}
+.main .titulo-secundario {
+  margin-top: 175px;
+}
+.main .border {
+  width: 210px;
+  height: 2px;
+}
+}
 /* Herois */
 .herois-bg {
   background: var(--cor-13);
 }
 .herois {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 36px 36px;
-  box-sizing: border-box;
   max-width: 730px;
   padding-left: 20px;
   padding-right: 20px;
@@ -168,20 +189,23 @@
   text-transform: uppercase;
 }
 
+
 /* História */
 .historia-bg {
   background: var(--cor-13);
 }
 .historia {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-wrap: wrap;
   max-width: 850px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
 .container-historia {
-  display: grid;
-  justify-content: start;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
   width: 850px;
   height: 60px;
@@ -195,7 +219,7 @@
 }
 .container-artigo {
   width: 850px;
-  height: 666px;
+  height: auto;
   background: var(--cor-p1);
 }
 .container-artigo p + p {
@@ -206,6 +230,26 @@
   margin-right: 16px;
   margin-left: 16px;
   text-align: justify;
+}
+.paragrafo:last-child {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 450px) {
+
+.main .titulo-principal {
+  margin-top: 40px;
+}
+.container-historia {
+  justify-content: center;
+  align-items: center;
+}
+.titulo-historia {
+  padding-left: 0px;
+}
+.container-artigo {
+  background: var(--cor-p1);
+}
 }
 
 /* Footer */
