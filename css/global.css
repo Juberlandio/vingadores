@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
   scroll-behavior: smooth;
+  background: var(--cor-13);
 }
 h1,
 h2,
@@ -24,6 +25,7 @@ a {
 img {
   height: auto;
   display: block;
+  max-width: 100%;
 }
 ::-webkit-scrollbar {
 	width: 7px;
