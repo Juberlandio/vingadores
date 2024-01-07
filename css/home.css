@@ -12,13 +12,15 @@
  text-transform: uppercase;
  text-decoration: none;
  cursor: pointer;
+ padding: 10px 10px;
+
 }
 .inicio {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px;
+  padding: 0px;
   gap: 15px;
   background: var(--cor-12);
   border: 1px solid var(--cor-p1);
@@ -31,7 +33,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px;
+  padding: 0px;
   gap: 15px;
   background: var(--cor-12);
   border: 1px solid var(--cor-p1);
@@ -44,7 +46,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px;
+  padding: 0px;
   gap: 15px;
   background: var(--cor-12);
   border: 1px solid var(--cor-p1);
@@ -186,7 +188,6 @@
   text-transform: uppercase;
 }
 
-
 /* História */
 .historia {
   display: flex;
@@ -229,13 +230,8 @@
 .paragrafo:last-child {
   margin-bottom: 20px;
 }
-/* .container-artigo img {
-  float: left;
-  width: 33%;
-} */
 
-@media (max-width: 450px) {
-
+@media (max-width: 500px) {
 .main .titulo-principal {
   margin-top: 40px;
 }
