@@ -25,6 +25,9 @@
   }  
 }
 @media (max-width: 500px) {
+  .font-xl {
+    font-size: 1.050rem;
+  }
   .font-xxl {
     font-size: 2rem;
   }  
