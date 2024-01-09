@@ -13,6 +13,9 @@
   width: 33%;
   margin: 0px 16px 16px 16px;
 }
+.center {
+  text-indent: 0rem;
+}
 @media (max-width: 500px){
   .titulo-historia {
     padding-left: 0px;

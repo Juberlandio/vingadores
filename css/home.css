@@ -9,15 +9,17 @@
   justify-content: flex-end;
 }
 .menu a{
- text-transform: uppercase;
- text-decoration: none;
- cursor: pointer;
- padding: 10px;
-
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.menu a:hover {
+  color: var(--cor-p1)
 }
 .inicio {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   padding: 0px;
@@ -26,11 +28,11 @@
   border: 1px solid var(--cor-p1);
   outline-offset: -3px;
   position: relative;
-  flex: 0 0 110px;
+  flex: 0 0 100px;
 }
 .quadrinhos {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   padding: 0px;
@@ -39,11 +41,11 @@
   border: 1px solid var(--cor-p1);
   outline-offset: -3px;
   position: relative;
-  flex: 0 0 110px;
+  flex: 0 0 100px;
 }
 .contato {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   padding: 0px;
@@ -52,7 +54,7 @@
   border: 1px solid var(--cor-p1);
   outline-offset: -3px;
   position: relative;
-  flex: 0 0 110px;
+  flex: 0 0 100px;
 }
 @media (max-width: 500px) {
   .menu {
@@ -111,7 +113,7 @@
 .main .titulo-secundario {
   margin-top: 185px;
 }
-.main .border {
+.main .border { 
   width: 210px;
   height: 2px;
 }
@@ -137,6 +139,11 @@
   height: 260px;
   background: #F39C11;
   margin: 0 auto;
+  transition: 0.5s;
+}
+.herois .container-img:hover {
+  width: 183px;
+  height: 240px;
 }
 .herois .container-img-1  {
   display: grid;
@@ -146,6 +153,11 @@
   height: 260px;
   background: #C1382B;
   margin: 0 auto;
+  transition: 0.5s;
+}
+.herois .container-img-1:hover {
+  width: 183px;
+  height: 240px;
 }
 .herois .container-img-2  {
   display: grid;
@@ -155,6 +167,11 @@
   height: 260px;
   background: #323232;
   margin: 0 auto;
+  transition: 0.5s;
+}
+.herois .container-img-2:hover {
+  width: 183px;
+  height: 240px;
 }
 .herois .container-img-3  {
   display: grid;
@@ -164,6 +181,11 @@
   height: 260px;
   background: #505050;
   margin: 0 auto;
+  transition: 0.5s;
+}
+.herois .container-img-3:hover {
+  width: 183px;
+  height: 240px;
 }
 .herois .container-img-4  {
   display: grid;
@@ -173,6 +195,11 @@
   height: 260px;
   background: #8D43AC;
   margin: 0 auto;
+  transition: 0.5s;
+}
+.herois .container-img-4:hover {
+  width: 183px;
+  height: 240px;
 }
 .herois .container-img-5  {
   display: grid;
@@ -182,6 +209,11 @@
   height: 260px;
   background: #55A148;
   margin: 0 auto;
+  transition: 0.5s;
+}
+.herois .container-img-5:hover {
+  width: 183px;
+  height: 240px;
 }
 .herois-bg .herois p {
   text-align: center;

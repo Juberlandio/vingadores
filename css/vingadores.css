@@ -26,12 +26,14 @@
 .container-artigo-vingadores img {
   float: left;
   width: 33%;
-  margin: 0px 16px 0px;
+  margin: 0px 16px 0px 16px;
 }
 .botao {
+  display: block;
   cursor: pointer;
   text-transform: uppercase;
-  margin: 16px 16px 0px auto;
+  margin: 0 0 0 auto;
+  padding: 16px;
 }
 @media (max-width: 500px){
   .titulo-historia {
@@ -41,7 +43,7 @@
   .container-artigo-vingadores img {
     float: none;
     width: auto;
-    margin: 16px auto;
+    margin: 16px auto; 
   } 
   .center {
     text-indent: 0rem;
