@@ -264,6 +264,18 @@
 }
 
 @media (max-width: 500px) {
+nav .menu {
+  font: 500 0.40rem/1 "Montserrat", sans-serif;
+}
+.inicio {
+  flex: 0 0 70px;
+}
+.quadrinhos {
+  flex: 0 0 70px;
+}
+.contato {
+  flex: 0 0 70px;
+}
 .main .titulo-principal {
   margin-top: 40px;
 }
