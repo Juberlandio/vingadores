@@ -97,27 +97,6 @@
   border-radius: 5px;
   margin: 0 auto;
 }
-@media (max-width: 760px) {
-  .main .titulo-secundario {
-    margin-top: 125px;
-  }
-}
-@media (max-width: 500px) {
-.main .titulo-principal {
-  margin-top: 40px;
-}
-.main .quadrado {
-  width: 244px;
-  height: 62px;
-}
-.main .titulo-secundario {
-  margin-top: 185px;
-}
-.main .border { 
-  width: 210px;
-  height: 2px;
-}
-}
 /* Herois */
 .herois {
   display: flex;
@@ -262,7 +241,11 @@
 .paragrafo:last-child {
   margin-bottom: 20px;
 }
-
+@media (max-width: 760px) {
+  .main .titulo-secundario {
+    margin-top: 110px;
+}
+}
 @media (max-width: 500px) {
 nav .menu {
   font: 500 0.550rem/1 "Montserrat", sans-serif;
@@ -277,7 +260,15 @@ nav .menu {
   flex: 0 0 70px;
 }
 .main .titulo-principal {
-  margin-top: 40px;
+  margin-top: 130px;
+}
+.main .quadrado {
+  width: 244px;
+  height: 62px;
+}
+.main .border { 
+  width: 210px;
+  height: 2px;
 }
 .container-historia {
   justify-content: center;
