@@ -265,7 +265,7 @@
 
 @media (max-width: 500px) {
 nav .menu {
-  font: 500 0.40rem/1 "Montserrat", sans-serif;
+  font: 500 0.550rem/1 "Montserrat", sans-serif;
 }
 .inicio {
   flex: 0 0 70px;
