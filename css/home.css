@@ -8,11 +8,11 @@
   gap: 10px 20px;
   justify-content: flex-end;
 }
-.menu a{
+.menu li a{
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  padding: 10px 0px;
+  padding: 10px 10px;
 }
 .menu a:hover {
   color: var(--cor-p1)
