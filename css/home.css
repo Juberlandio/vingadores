@@ -77,7 +77,6 @@
 }
 .main .quadrado {
   width: 280px;
-  height: 56px;
   background: var(--cor-13);
   margin: 0 auto;
 }
@@ -115,84 +114,96 @@
   justify-content: center;
   align-items: center;
   width: 207px;
-  height: 260px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #F39C11;
   margin: 0 auto;
   transition: 0.5s;
 }
 .herois .container-img:hover {
   width: 183px;
-  height: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .herois .container-img-1  {
   display: grid;
   justify-content: center;
   align-items: center;
   width: 207px;
-  height: 260px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #C1382B;
   margin: 0 auto;
   transition: 0.5s;
 }
 .herois .container-img-1:hover {
   width: 183px;
-  height: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .herois .container-img-2  {
   display: grid;
   justify-content: center;
   align-items: center;
   width: 207px;
-  height: 260px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #323232;
   margin: 0 auto;
   transition: 0.5s;
 }
 .herois .container-img-2:hover {
   width: 183px;
-  height: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .herois .container-img-3  {
   display: grid;
   justify-content: center;
   align-items: center;
   width: 207px;
-  height: 260px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #505050;
   margin: 0 auto;
   transition: 0.5s;
 }
 .herois .container-img-3:hover {
   width: 183px;
-  height: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .herois .container-img-4  {
   display: grid;
   justify-content: center;
   align-items: center;
   width: 207px;
-  height: 260px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #8D43AC;
   margin: 0 auto;
   transition: 0.5s;
 }
 .herois .container-img-4:hover {
   width: 183px;
-  height: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .herois .container-img-5  {
   display: grid;
   justify-content: center;
   align-items: center;
   width: 207px;
-  height: 260px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #55A148;
   margin: 0 auto;
   transition: 0.5s;
 }
 .herois .container-img-5:hover {
   width: 183px;
-  height: 240px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .herois-bg .herois p {
   text-align: center;
