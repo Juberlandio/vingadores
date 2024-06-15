@@ -1,52 +1,53 @@
 .historia-vingadores{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 550px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+max-width: 550px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: auto;
+margin-right: auto;
 }
 .container-vingadores {
-  width: 550px;
-  height: 60px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background: var(--cor-p2);
-  border-bottom: 1px solid var(--c13, #000);
-  margin-top: -40px;
+width: 550px;
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background: var(--cor-p2);
+border-bottom: 1px solid var(--c13, #000);
+margin-top: -40px;
 }
 .container-artigo-vingadores {
-  width: 620px;
-  height: auto;
-  background: var(--cor-p1);
-  text-indent: 1.5em;
+width: 620px;
+height: auto;
+background: var(--cor-p1);
+text-indent: 1.5em;
 }
 .container-artigo-vingadores img {
-  float: left;
-  width: 33%;
-  margin: 0px 16px 0px 16px;
+float: left;
+width: 33%;
+margin: 0px 16px 0px 16px;
 }
 .botao {
-  display: block;
-  cursor: pointer;
-  text-transform: uppercase;
-  margin: 0 0 0 auto;
-  padding: 16px;
+display: block;
+cursor: pointer;
+text-transform: uppercase;
+margin: 0 0 0 auto;
+padding: 16px;
 }
 @media (max-width: 500px){
-  .titulo-historia {
-    padding-left: 0px;
-    margin: auto;
-  }
-  .container-artigo-vingadores img {
-    float: none;
-    width: auto;
-    margin: 16px auto;
-  } 
-  .center {
-    text-indent: 0rem;
-    text-align: center;
-  }
+.titulo-historia {
+padding-left: 0px;
+margin: auto;
+}
+.container-artigo-vingadores img {
+float: none;
+width: auto;
+margin: 16px auto;
+} 
+.center {
+text-indent: 0rem;
+text-align: center;
+}
 }
